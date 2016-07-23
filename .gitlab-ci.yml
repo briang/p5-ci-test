@@ -1,10 +1,10 @@
 before_script:
   - perl -v | grep '^This is'
   - curl -L --silent https://cpanmin.us/ -o cpanm
+  - perl cpanm --installdeps .
 
 test:
   script:
-    - perl cpanm --installdeps .
     - perl Makefile.PL
     - make
     - RELEASE_TESTING=1 make test
