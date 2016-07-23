@@ -1,7 +1,13 @@
 before_script:
   - perl -v | grep '^This is'
 
-test:
+release:
+  script:
+    - perl Makefile.PL
+    - make
+    - RELEASE_TESTING=1 make test
+
+user:
   script:
     - perl Makefile.PL
     - make
