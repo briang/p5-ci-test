@@ -1,6 +1,6 @@
 before_script:
   - perl -v | grep '^This is'
-  - curl -L https://cpanmin.us/ -o cpanm
+  - curl -L --silent https://cpanmin.us/ -o cpanm
 
 test:
   script:
