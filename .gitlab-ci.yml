@@ -1,14 +1,9 @@
 before_script:
   - perl -v | grep '^This is'
 
-release:
+test:
   script:
+    - cpanm --installdeps .
     - perl Makefile.PL
     - make
     - RELEASE_TESTING=1 make test
-
-user:
-  script:
-    - perl Makefile.PL
-    - make
-    - make test
