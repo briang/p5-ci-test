@@ -1,5 +1,6 @@
 before_script:
   - perl -v | grep '^This is'
+  - apt-get install cpanminus
 
 test:
   script:
