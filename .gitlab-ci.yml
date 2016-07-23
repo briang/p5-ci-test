@@ -3,4 +3,6 @@ before_script:
 
 test:
   script:
-    - prove t/*.t
+    perl Makefile.PL
+    make
+    make test
