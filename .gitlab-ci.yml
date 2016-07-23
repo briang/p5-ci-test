@@ -1,2 +1,6 @@
 before_script:
   - perl -v
+
+test:
+  script:
+    - prove t/*.t
