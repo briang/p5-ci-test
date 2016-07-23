@@ -1,5 +1,5 @@
 before_script:
-  - perl -v
+  - perl -v | grep '^This is'
 
 test:
   script:
