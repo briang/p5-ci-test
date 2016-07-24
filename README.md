@@ -11,4 +11,6 @@ Test Travis-CI & coveralls.io integration
 
 ## USAGE
 
-See [documentation on CPAN](https://metacpan.org/pod/Git::Wrapper)
+See [documentation on CPAN](https://metacpan.org/pod/CI::Test)
+
+See [documentation on Github](https://github.org/briang/p5-ci-test)
