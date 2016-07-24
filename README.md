@@ -7,7 +7,7 @@ Test Travis-CI & coveralls.io integration
 ## BUILD INFO
 
 [![Build Status](https://travis-ci.org/briang/p5-ci-test.svg?branch=master)](https://travis-ci.org/briang/p5-ci-test)
-[![Coverage Status](https://coveralls.io/repos/briang/p5-ci-test/badge.svg?branch=master)](https://coveralls.io/r/briang/p5-ci-test?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/briang/p5-ci-test/badge.svg?branch=master)](https://coveralls.io/github/briang/p5-ci-test?branch=master)
 
 ## USAGE
 
